@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="fr">
+      <head>
+            
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:locale" content="FR-fr">
+		
+		<meta prefix="og: http://ogp.me/ns#" property="og:title" content="TheoryGlobal - Demand Generation Diagnostic " />
+		<meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+		<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://s3-eu-west-1.amazonaws.com/pixbucket/promoting/lk_rider.png" />
+		<meta prefix="og: http://ogp.me/ns#" property="og:url" content="http://info.theoryglobal.com/demand-generation-assessment.html" />
+
+            <meta name="og:url"    content="http://info.theoryglobal.com/demand-generation-assessment.html" />
+            <meta name="og:title"  content="TheoryGlobal - Demand Generation Diagnostic " />
+            <meta name="og:image"  content="https://s3-eu-west-1.amazonaws.com/pixbucket/promoting/lk_rider.png" />
+            <meta name="article:publisher"   content="https://www.facebook.com/theoryglobal/" />
+            <link rel="shortcut icon" type="image/x-icon" href="https://www.theoryglobal.com/favicon.ico">
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="@theoryglobal" />
+            <meta name="twitter:title" content="Demand Generation Diagnostic ">
+            <meta name="twitter:description" content="Évaluez votre stratégie de Demand Generation. Identifiez les fondamentaux marketing qui ont permis aux entreprises les plus performantes de construire  un avantage compétitif grâce au Marketing.">
+            <meta name="twitter:image" content="https://s3-eu-west-1.amazonaws.com/pixbucket/promoting/lk_rider.png">
+            <meta name="twitter:description" content="Évaluez votre stratégie de Demand Generation. Identifiez les fondamentaux marketing qui ont permis aux entreprises les plus performantes de construire  un avantage compétitif grâce au Marketing.">
+            <meta name="og:description" content="Votre entreprise est-elle prête pour la Demand Generation ?">
+            <meta name="description" content="Demand generation : Identifiez les fondamentaux qui ont permis aux entreprises de devenir les plus performantes.">
+
+
+                  <title>Demand Generation Assessment</title>
+                  
+			
+			<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-orange.min.css" />
+                  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
+                  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  			
+			<!-- Déjà intégré -->
+    
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Ubuntu:700" rel="stylesheet">
+			<link type rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+			
+			
+                  
+			<script src="https://s3-eu-west-1.amazonaws.com/pixbucket/script/Chart.js" type="text/javascript"></script>
+			<script src="https://s3-eu-west-1.amazonaws.com/pixbucket/script/exclude_domain3.js" type="text/javascript"></script>
+		
+			<script type="text/javascript">// GET RESULT
+				function getresult(){
+					//var canvas = document.getElementById('myChart');
+					//var context = canvas.getContext('2d');
+					//context.clearRect(0, 0, canvas.width, canvas.height);
+					$('.col-xs-4').css('width','0%');
+					$('.col-xs-8').css('width','100%');
+					//active_pane(9);
+				}
+			</script>
+			<script type="text/javascript">(function(o){var b="https://quickkoala.io/anywhere/",t="e334cdaa3a4c48b4831a83f844984e3fb09530fc9bb34b90b4793ab3e5a9d51c",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||"")+"&gdpr=1",j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};window.Autopilot.GDPRCookieOptIn=function(){z(b+t+'?'+p+'&optin=1',false);window.Autopilot.GDPROptedIn=true;};window.Autopilot.GDPRCookieOptOut=function(){z(b+t+'?'+p+'&optout=1',false);window.Autopilot.GDPROptedIn=false;};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
+			<script> // GESTION DES RESULATS
+					
+                        $(document).ready(function() {
+					var $user="";
+					$("#myform").submit(function(e){
+						if($("#email").val()!="" && $("#firstname").val()!="" && $("#lastname").val()!="" && $("#company").val()!="" && $("#title").val()!=""){
+
+							active_pane(1);
+							$user=$("#email").val();
+							event.preventDefault();
+							$('#theory_main').removeClass('rider');
+						}
+						else{
+							alert("Tous les champs sont obligatoires")
+						}
+					});
+
+					$(".picture_next").click(function(e) {
+						console.log($(this).attr("next"));
+						active_pane($(this).attr("next"));
+					});
+					$(".picture_prev").click(function(e) {
+						console.log($(this).attr("prev"));
+						active_pane($(this).attr("prev"));
+					});
+                                                                        //
+												
+												$score=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+												$score1=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+												$final_score=[0,0,0,0,0,0,0];
+												$data=[];
+												$theme=["Orientation_Strategy","Orientation_Buyin", "Orientation_Knowledge", "Customer_Centricity","Customer_Lifecycle","Customer_Strategy","Organisation_Processes","Organisation_Alignement","Execution_Operational","Execution_Strategy","Technology_Tools","Technology_Integration","Budget_Allocations","Budget_Roles","Budget_DemandgenTeam","Metrics_Competencies","Metrics_Performance"];
+
+												$("#emailAddress").change(function() {
+
+													if(isBusinessEmail($("#emailAddress").val())){
+														$('#email_login').text('');
+														$mkto=true;
+													}
+													else{														
+														$('#email_login').text('Entrez votre email professionnel (Gmail, Yahoo, Hotmail... non acceptés)');
+														$('#email_login').focus();
+															$mkto=false;
+													}
+												});
+
+												$('#btn-result').click(function(){radar(); })
+                                                                        
+                                                                        Chart.defaults.global = {
+														    // Boolean - Whether to animate the chart
+														    animation: true,
+
+														    // Number - Number of animation steps
+														    animationSteps: 60,
+
+														    // String - Animation easing effect
+														    // Possible effects are:
+														    // [easeInOutQuart, linear, easeOutBounce, easeInBack, easeInOutQuad,
+														    //  easeOutQuart, easeOutQuad, easeInOutBounce, easeOutSine, easeInOutCubic,
+														    //  easeInExpo, easeInOutBack, easeInCirc, easeInOutElastic, easeOutBack,
+														    //  easeInQuad, easeInOutExpo, easeInQuart, easeOutQuint, easeInOutCirc,
+														    //  easeInSine, easeOutExpo, easeOutCirc, easeOutCubic, easeInQuint,
+														    //  easeInElastic, easeInOutSine, easeInOutQuint, easeInBounce,
+														    //  easeOutElastic, easeInCubic]
+														    animationEasing: "easeOutQuart",
+
+														    // Boolean - If we should show the scale at all
+														    showScale: true,
+
+														    // Boolean - If we want to override with a hard coded scale
+														    scaleOverride: false,
+
+														    // ** Required if scaleOverride is true **
+														    // Number - The number of steps in a hard coded scale
+														    scaleSteps: null,
+														    // Number - The value jump in the hard coded scale
+														    scaleStepWidth: null,
+														    // Number - The scale starting value
+														    scaleStartValue: null,
+
+														    // String - Colour of the scale line
+														    scaleLineColor: "rgba(0,0,0,.1)",
+
+														    // Number - Pixel width of the scale line
+														    scaleLineWidth: 1,
+
+														    // Boolean - Whether to show labels on the scale
+														    scaleShowLabels: true,
+
+														    // Interpolated JS string - can access value
+														    scaleLabel: "<%=value%>",
+
+														    // Boolean - Whether the scale should stick to integers, not floats even if drawing space is there
+														    scaleIntegersOnly: true,
+
+														    // Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
+														    scaleBeginAtZero: false,
+
+														    // String - Scale label font declaration for the scale label
+														    scaleFontFamily: "'Roboto', Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+
+														    // Number - Scale label font size in pixels
+														    scaleFontSize: 18,
+
+														    // String - Scale label font weight style
+														    scaleFontStyle: "normal",
+
+														    // String - Scale label font colour
+														    scaleFontColor: "#666",
+
+														    // Boolean - whether or not the chart should be responsive and resize when the browser does.
+														    responsive: false,
+
+														    // Boolean - whether to maintain the starting aspect ratio or not when responsive, if set to false, will take up entire container
+														    maintainAspectRatio: true,
+
+														    // Boolean - Determines whether to draw tooltips on the canvas or not
+														    showTooltips: false,
+
+														    // Function - Determines whether to execute the customTooltips function instead of drawing the built in tooltips (See [Advanced - External Tooltips](#advanced-usage-custom-tooltips))
+														    customTooltips: false,
+
+														    // Array - Array of string names to attach tooltip events
+														    tooltipEvents: ["mousemove", "touchstart", "touchmove"],
+
+														    // String - Tooltip background colour
+														    tooltipFillColor: "rgba(0,0,0,0.8)",
+
+														    // String - Tooltip label font declaration for the scale label
+														    tooltipFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+
+														    // Number - Tooltip label font size in pixels
+														    tooltipFontSize: 14,
+
+														    // String - Tooltip font weight style
+														    tooltipFontStyle: "normal",
+
+														    // String - Tooltip label font colour
+														    tooltipFontColor: "#fff",
+
+														    // String - Tooltip title font declaration for the scale label
+														    tooltipTitleFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+
+														    // Number - Tooltip title font size in pixels
+														    tooltipTitleFontSize: 14,
+
+														    // String - Tooltip title font weight style
+														    tooltipTitleFontStyle: "bold",
+
+														    // String - Tooltip title font colour
+														    tooltipTitleFontColor: "#fff",
+
+														    // Number - pixel width of padding around tooltip text
+														    tooltipYPadding: 6,
+
+														    // Number - pixel width of padding around tooltip text
+														    tooltipXPadding: 6,
+
+														    // Number - Size of the caret on the tooltip
+														    tooltipCaretSize: 8,
+
+														    // Number - Pixel radius of the tooltip border
+														    tooltipCornerRadius: 6,
+
+														    // Number - Pixel offset from point x to tooltip edge
+														    tooltipXOffset: 10,
+
+														    // String - Template string for single tooltips
+														    tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>",
+
+														    // String - Template string for multiple tooltips
+														    multiTooltipTemplate: "<%= value %>",
+
+														    // Function - Will fire on animation progression.
+														    onAnimationProgress: function(){},
+
+														    // Function - Will fire on animation completion.
+														    onAnimationComplete: function(){}
+														}
+													function colorize(i,e){
+														if($final_score[i]<2) {e.css('border-color','#FF3D00');}
+														if($final_score[i]>=2 && $final_score[i]<3){e.css('border-color','#FFD54F');}
+														if($final_score[i]>=3 && $final_score[i]<3.5){e.css('border-color','#FFFF00');}
+														if($final_score[i]>=3.5){e.css('border-color','#C0CA33');}
+													}
+
+													function radar(e){
+														var moyenne=0;
+														for (var i = 0; i<$final_score.length; i++) {
+															moyenne=moyenne + $final_score[i];
+														}
+
+														//Put each score in Result collapsible panels
+														$('#score_orientation').text($final_score[0]);
+														colorize(0,$('#score_orientation_border'));
+														
+														$('#score_Leadership').text($final_score[1]);
+														colorize(1,$('#score_Leadership_border'));
+
+														$('#score_Organisation').text($final_score[2]);
+														colorize(2,$('#score_Organisation_border'));
+
+														$('#score_Demand').text($final_score[3]);
+														colorize(3,$('#score_Demand_border'));
+
+														$('#score_Techno').text($final_score[4]);
+														colorize(4,$('#score_Techno_border'));
+
+														$('#score_Staff').text($final_score[5]);
+														colorize(5,$('#score_Staff_border'));
+
+														$('#score_Reporting').text($final_score[6]);
+														colorize(6,$('#score_Reporting_border'));
+
+														moyenne=moyenne/7;
+
+														//alert(moyenne);
+														$('#score').text(Math.round(moyenne*10)/10);
+														var moy=Math.round(moyenne*10)/10;
+
+														/*
+														if(moy<2) {$('#main_score').css('border-color','#FF3D00');$('#gen_1').css('display','block');}
+														if(moy>=2 && moy<3){$('#main_score').css('border-color','#FFD54F');$('#gen_2').css('display','block');}
+														if(moy>=3 && moy<3.5){$('#main_score').css('border-color','#FFFF00');$('#gen_3').css('display','block');}
+														if(moy>=3.5){$('#main_score').css('border-color','#C0CA33');$('#gen_4').css('display','block');}
+														*/
+
+														//$('#cie_score').text($company);
+
+														var data = {
+															labels: ["Leadership", "Customer Centricity", "Organisation", "Execution", "Technologie", "Budget & Ressources", "Mesure de la performance"],datasets: 
+															[{
+																label: "Your Score",
+																fillColor: "rgba(220,220,220,0.2)",
+																strokeColor: "#f8c82d",
+																pointColor: "rgba(220,220,220,1)",
+																pointStrokeColor: "#fff",
+																pointHighlightFill: "#fff",
+																pointHighlightStroke: "rgba(220,220,220,1)",
+																data: $final_score
+															},{
+																label: "",
+																fillColor: "rgba(151,187,205,0)",
+																strokeColor: "rgba(151,187,205,0)",
+																pointColor: "rgba(151,187,205,0)",
+																pointStrokeColor: "#fff",
+																pointHighlightFill: "#fff",
+																pointHighlightStroke: "rgba(151,187,205,0)",
+																data: [4, 4, 4, 4, 4, 4, 4]
+															}
+															]};
+															var ctx=new Chart(document.getElementById("myChart").getContext("2d")).Radar(data);
+														}
+
+												function active_pane(e){
+
+														console.log("$user " + $user);
+												 		//manu
+												 		
+														 /*
+														 $('li.active').removeClass('current');
+												 		$('li.active').removeClass('active');
+												 		$('#menu >li:nth-child(' + e + ')').addClass('active');
+												 		$('li.active').addClass('current');
+												 		$('#menu >li:nth-child(' + e + ')').removeClass('disabled');
+												 		$('#menu >li:nth-child(' + e + ')>a').attr('href','#menu'+ (e-1)+'');
+												 		$('#menu >li:nth-child(' + e + ')>a').css('pointer-events','auto');
+														*/
+
+												 		//Panneau
+												 		$('div.in.active').removeClass('in active');
+												 		$('#menu' + (e-1) + '').addClass('in active');
+
+												 		//Pagination
+												 		$('#menu' + (e-1) + ' > .pager >li:first-child').click(function(){active_pane('' + (e-1) +'');});
+														
+														 
+
+												 		if(e==15){
+															console.log('#show' + (e));
+
+												 			$('#menu15').click(getresult());
+												 			$('.col-xs-4').css('width','0%');
+												 			$('.col-xs-8').css('width','100%');
+
+												 			var canvas = document.getElementById('myChart');
+															var context = canvas.getContext('2d');
+												 			context.clearRect(0, 0, canvas.width, canvas.height);
+															 radar();
+
+															 var d = new Date();
+
+															 var str="Email="+ $("#email").val();
+															 str=str+"&FirstName="+$("#firstname").val();
+															 str=str+"&LastName="+$("#lastname").val();
+															 str=str+"&Company="+$("#company").val();
+															 str=str+"&Title="+$("#title").val();
+															 str=str+"&Date="+d;
+															 var res="";
+															 var sco=$final_score;
+															 console.log($final_score)
+
+															 for($i=0;$i<17;$i++){
+																str=str+"&"+ $theme[$i]+"="+$score[$i];
+																res=res+$score[$i]+",";
+																
+															 }
+															 console.log(str);
+												 			register_gs(str+"&Param="+res+"&Score="+$final_score);
+												 			
+															window.scrollTo(0, 480);
+												 		}	
+												 	}
+
+												 	
+
+												 	$('input[type="radio"]').click(function(e){ 
+														var score=$score;
+														var score1=$score1;
+														
+														 $score1[jQuery.inArray(this.name.toString(), $theme )]=$(this).attr('data');
+														 
+														 
+										
+														 $score[jQuery.inArray(this.name.toString(), $theme )]=this.value;
+														 
+														$final_score[0]=Math.round(((parseInt(score1[0])+parseInt(score1[1])+parseInt(score1[2]))/3)*10)/10;
+												 		$final_score[1]=Math.round(((parseInt(score1[3])+parseInt(score1[4]) +parseInt(score1[5]))/3)*10)/10;
+												 		$final_score[2]=Math.round(((parseInt(score1[6])+parseInt(score1[7]))/2)*10)/10;
+												 		$final_score[3]=Math.round(((parseInt(score1[8])+parseInt(score1[9]))/2)*10)/10;
+												 		$final_score[4]=Math.round(((parseInt(score1[10])+parseInt(score1[11]))/2)*10)/10;
+												 		$final_score[5]=Math.round(((parseInt(score1[12])+parseInt(score1[13])+parseInt(score1[14]))/3)*10)/10;
+												 		$final_score[6]=Math.round(((parseInt(score1[15])+parseInt(score1[16]))/2)*10)/10;
+
+												 		
+												 		for(var i=0; i < 17; i++) {
+															 var answer = $("input[name='" + $theme[i] + "'][data='"+ score1[i] +"']").parent().text();
+															 //alert(answer);
+												 			
+												 			$('#answer_' +i ).text(answer);
+														 }
+														 console.log(score1[0]);
+														 console.log(score1[1]);
+														 console.log(score1[2]);
+
+														 
+														 if(parseInt(score1[0])>0 && parseInt(score1[1])>0 && parseInt(score1[2])>0){
+															 $('#menu1>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(3);});
+															}
+
+														 if(parseInt(score[3])>0 && parseInt(score[4])>0 && parseInt(score[5])>0 ){
+															 $('#menu3>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(5);});
+															}
+
+														 if(parseInt(score[6])>0 && parseInt(score[7])>0){
+															 $('#menu5>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(7);});
+															}
+
+														 if(parseInt(score[8])>0 && parseInt(score[9])>0 ){
+															 $('#menu7>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(9);});
+														 }
+
+														 if(parseInt(score[10])>0 && parseInt(score[11])>0 ){
+															 
+														 	$('#menu9>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(11);});
+															 
+														}
+
+														 if(parseInt(score[12])>0 && parseInt(score[13])>0 && parseInt(score[14])>0){
+															 $('#menu11>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(13);});
+															}
+
+														 if(parseInt(score[15])>0 && parseInt(score[16])>0 ){
+															 $('#menu13>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(15); 	
+														 });
+
+
+														 }
+
+														});
+
+													});
+			</script>
+
+
+			
+
+			<!--Style -->
+			<style type="text/css">
+				.sc{padding-left:15px;width:200px;}
+				.gauche{
+					width:400px!important;
+				}
+				.rider{
+					background-image: url(images/rider.png);
+					background-position-x: 150px;
+					background-repeat: no-repeat;
+				}
+				h5#title_ans{
+					font-weight: 700 !important;
+					color:#000;
+				}
+				.ans{display: block;margin-bottom: 11px;font-size: 15px;font-weight: 400;}
+				.ans::before{content:"• ";}
+				h1,h3{font-family: 'Ubuntu'!important;font-weight:700;}
+
+				h3{
+					font-size:32px!important;
+					margin: 0 0 20px ;}
+				h1{
+					margin-bottom: 0px!important;
+					color: #f6b142!important;}
+				.good{
+					background-color:#a8d164;
+					cursor:pointer;
+					color:#fff;
+				}
+				div.radio:hover{
+					background-color: #eee;
+					border-radius:5px;
+				}
+				div.radio{
+					padding-left:25px;
+					width:90%;
+					font-family: sans-serif;
+
+				}
+				#menu>li.active>a{
+
+					border-bottom: 0px solid #337ab7;
+					cursor: pointer;
+				}
+				.pager .disabled>a{
+					color: #ccc !important;
+					cursor: not-allowed;
+
+					background-color: #fff;
+				}
+				button.mktoButton{
+					display:none;
+				}
+				#menu>.disabled.active>a{
+					background-color: #fff !important;
+					color:#777!important;
+					border-bottom: none !important;
+					
+				}
+				
+				#btn-result{
+					background-color: #fff ;
+					border-bottom: none !important;
+					color: #337ab7 ;
+					font-family: 'Roboto',sans-serif;
+				}
+				h2,h4, h5, body{
+					/*font-family: 'Roboto ',sans-serif !important;*/
+					font-weight:200 !important;
+				}
+				h2{
+					color:#f6b142;
+					margin-bottom: 15px;
+				}
+				p, ul, li, label{
+					/*font-family: 'Roboto light',sans-serif !important;*/
+					font-size:18px !important;
+					font-weight:500 !important;
+					
+				}
+				b,strong{
+					font-family: 'Ubuntu';
+					color:#f6b142;
+				}
+				.tabs-left, .tabs-right {
+				  border-bottom: none;
+				  padding-top: 2px;
+				}
+				.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+
+					background-color: #C0CA33;
+					color:#fff !important;
+					border-radius: 0px !important;
+				}
+				.nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
+					background-color: #fff;
+					color:#337ab7;
+					border-radius: 0px !important;
+				}
+				.tabs-left {
+				  border-right: 1px solid #ddd;
+				}
+				.tabs-right {
+				  border-left: 1px solid #ddd;
+				}
+				.tabs-left>li, .tabs-right>li {
+				  float: none;
+				  margin-bottom: 0px;
+				}
+				.tabs-left>li {
+				  margin-right: -1px;
+				}
+				.tabs-right>li {
+				  margin-left: -1px;
+				}
+				
+				.tabs-right>li.active>a,
+				.tabs-right>li.active>a:hover,
+				.tabs-right>li.active>a:focus {
+				  border-bottom: 0px solid #ddd;
+				  border-left-color: transparent;
+				}
+				.tabs-left>li>a {
+				  border-radius: 4px 0 0 4px;
+				  margin-right: 0;
+				  display:block;
+				}
+				.tabs-right>li>a {
+				  border-radius: 0 4px 4px 0;
+				  margin-right: 0;
+				}
+				.sideways {
+				  margin-top:50px;
+				  border: none;
+				  position: relative;
+				}
+				.sideways>li {
+				  height: 20px;
+				  width: 120px;
+				  margin-bottom: 100px;
+				}
+				.sideways>li>a {
+				  border-bottom: 0px solid #ddd;
+				  border-right-color: transparent;
+				  text-align: center;
+				  border-radius: 4px 4px 0px 0px;
+				}
+				.sideways>li.active>a,
+				.sideways>li.active>a:hover,
+				.sideways>li.active>a:focus {
+				  border-bottom-color: transparent;
+				  border-right-color: #ddd;
+				  border-left-color: #ddd;
+				}
+				.sideways.tabs-left {
+				  left: -50px;
+				}
+				.sideways.tabs-right {
+				  right: -50px;
+				}
+				.sideways.tabs-right>li {
+				  -webkit-transform: rotate(90deg);
+				  -moz-transform: rotate(90deg);
+				  -ms-transform: rotate(90deg);
+				  -o-transform: rotate(90deg);
+				  transform: rotate(90deg);
+				}
+				.sideways.tabs-left>li {
+				  -webkit-transform: rotate(-90deg);
+				  -moz-transform: rotate(-90deg);
+				  -ms-transform: rotate(-90deg);
+				  -o-transform: rotate(-90deg);
+				  transform: rotate(-90deg);
+				}
+				.panel-default, .container, .panel{
+				border:none !important;
+				border-radius:2px !important;
+				box-shadow:0 20px 30px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12) !important;
+				}
+				.panel-body{
+					padding:0px;
+				}
+				div.col-xs-4{
+					margin-left: -30px;
+					margin-right:30px;
+					overflow: hidden;
+					width: 0px;
+					-webkit-transition: width 0.3s; /* For Safari 3.1 to 6.0 */
+					transition: width 0.3s;
+					padding-right: 0px; 
+					padding-left: 0px; 
+					box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12) !important; 
+				}
+
+				div.col-xs-8{		
+					width: 100%;
+					-webkit-transition: width 0.15s; /* For Safari 3.1 to 6.0 */
+				    transition: width 0.15s;
+				}
+				.nav>li>a{
+					border-radius:0px;
+					pointer-events:none;
+					color:#777;
+
+				}
+				.nav>li>a>span{
+					padding: 10px;
+				padding-top: 3px;
+				position: absolute;
+				}
+				.nav-pills>li.active>a:not(#btn-result){
+					pointer-events: auto;
+					background-color: #337ab7 !important;font-family: 'Roboto';box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12) !important; 
+
+				}
+				.nav-pills>li.active{
+					z-index:99;
+				}
+				.nav-pills>li.current>a:not(#btn-result){
+					
+				border-bottom: 1px solid #D50000;
+				}
+				#btn-result.current{
+					border:none !important;
+					background-color: #337ab7 !important;
+								border-bottom: none !important;
+								color: #fff !important ;
+								font-family: 'Roboto',sans-serif;
+				}
+				.pager{
+					text-align: left;
+				}
+				.pager li>a{
+				          color: #337ab7 !important;
+				font-weight: 600 !important;
+				          }
+				.nav-stacked>li+li{
+					margin-top: 0px !important;
+				}
+				li.current>#btn-result{
+					border:none !important;
+					background-color: #337ab7 !important;
+								border-bottom: none !important;
+								color: #fff !important ;
+								font-family: 'Roboto',sans-serif;
+				}
+				.alert-danger, .alert-success{
+					color: #000 ;
+					background-color: #fafafa!important;
+					border-color:#1A7A8A!important;
+                        }
+                        .checkbox, .radio {                 
+					margin-bottom: 22px!important;
+					color:#000;
+				  }
+				  input[type=radio]{
+					  margin-left:-34px!important;
+					  
+				  }
+				  .term{
+					  font-family: 'Ubuntu', sans-serif;
+					  font-weight:700;
+					  color:#f6b142;
+				  }
+				  .pager li>a, .pager li>span {
+					display: inline-block;
+					padding: 5px 14px;
+					background-color: #f6b142;
+					border: 1px solid #e3e3e3;
+					border-radius: 20px;}
+				.pager li>a {
+						color: #ffffff !important;
+						font-weight: 600 !important;
+					  }
+				 .pager li>a:hover {
+						color: #f6b142 !important;
+						font-weight: 600 !important;
+					  }
+				.fade {
+						
+						transition: opacity 1s ease-out!important;
+						    opacity: 0!important;
+					}
+				.fade.in {
+						
+						transition: opacity 1s ease-out!important;
+						opacity: 1!important;
+					  }
+				.container{
+					padding-right:0px!important;
+				}
+			</style>
+
+			<!--Style Print -->
+			<style type="text/css" media="print">
+				div.col-xs-4{display:none;}
+				div.col-xs-8{width:600px !important;}
+				#myChart{margin-left: 80px;}
+				button{display:none!important;}
+			  	#header-wrapper {display:none;}
+			  	.panel-default, .container, .panel{box-shadow: none !important;}
+				#page_break{margin-top:230px !important;}
+				#what_next{display:none !important;}
+				#licence{display:none !important;}
+				#final_footer{display:block !important;}
+				#return{display:none !important;}
+
+				@media (min-width: 992px){
+					.container {width: 970px;}
+					#hero{width:900px!important;}
+				}
+				@media (min-width: 768px){
+					.container {width: 970px;}
+					#hero{width:698px;}
+				}
+			</style>
+
+			<style type="text/css" media="screen and (max-device-width: 375px)">
+                        @media only screen and (max-width: 375px) {
+                              #myChart{
+                                    width:315px!important;
+                                    height:315px!important;
+                              }
+                              #print_cta, #print_cta1{
+                                    display:none;
+                              }
+                              td.sc{width:50px!important;}
+                              span.sc, span.sc1, span.sc2{font-size:15px!important;}
+                              .container{margin-top: -20px;}
+                              
+					.gauche{
+						width:350px!important;}
+					.droite{
+						width:375px!important;
+						 padding-left:0px!important;
+						 padding-top:40px;
+					}
+					.no-mobile{
+						display:none;
+					}
+				    }
+                        
+				
+			</style>
+
+		</head>
+		<body style="background-color:#f6b142">
+			
+			<p>&nbsp;</p>
+			<div class="container panel panel-default rider" id="theory_main" style="max-width:900px !important;">
+				<div class="panel-body">
+
+					<div class="col-xs-4 "> 
+	          			<!-- Nav tabs -->
+	          			
+					
+						<ul id="menu" class="nav nav-pills nav-stacked">
+						<li class="active"><a data-toggle="pill" href="#home" style="color:rgb(51, 122, 183)!important;">Progession</a></li>
+						<li class="disabled"><a data-toggle="pill" disable><i class="material-icons md-24">explore</i><span>Orientation Stratégique</span></a></li>
+						<li class="disabled"><a data-toggle="pill"><i class="material-icons md-24">event_seat</i><span>Leadership</span></a></li>
+						<li class="disabled"><a data-toggle="pill"><i class="material-icons md-24">device_hub</i><span>Organisation</span></a></li>
+						<li class="disabled"><a data-toggle="pill"><i class="material-icons md-24">nature_people</i><span>Demand Generation</span></a></li>
+						<li class="disabled"><a data-toggle="pill"><i class="material-icons md-24">build</i><span>Technologie Marketing</span></a></li>
+						<li class="disabled"><a data-toggle="pill"><i class="material-icons md-24">attach_money</i><span>Ressources &amp; Budget</span></a></li>
+						<li class="disabled"><a data-toggle="pill"><i class="material-icons md-24">trending_up</i><span>Reporting &amp; Analytics</span></a></li>
+						<li class="disabled"><a data-toggle="pill" id="btn-result"><i class="material-icons md-32">turned_in_not</i><span>Demand Gen Scoring</span></a></li>
+						</ul>
+					</div>
+					
+
+					<div class="col-xs-8"><!-- Tab panes -->
+
+	          			
+
+						<div class="tab-content">
+							<div role="tabpanel" id="home" class="tab-pane fade in active" style="position:relative;">
+								<div class="row">
+									
+									<div class="gauche "style="float:left;padding: 15px;">
+											
+											<h1 style="font-size:58px;line-height:50px;margin-bottom:20px!important;">Demand Generation</h1>
+											<h3 >Où en son vraiment vos équipes?</h3>
+									<h2 style="color:rgb(74, 74, 74);font-size:30px">Évaluez votre stratégie de <br/>Demand Generation et boostez vos performances.</h2>
+									<img id="theory-logo" src="https://s3-eu-west-1.amazonaws.com/pixbucket/logo/logo+theroy+global+noir+150.png" style="padding:20px 40px 0px 0px;width:135px;">
+									<center><img alt="Demand generation : Identifiez vos points forts en Demand gen " src="https://s3-eu-west-1.amazonaws.com/pixbucket/Theory_assesment.png" style="display:none;width:120px;"></center>
+									 	
+										
+									</div>
+
+										<div class="droite" style="width:350px;float:right;padding-left: 30px;">
+											
+											<div id="linkedin" class="alert alert-danger" style="background-color: #eee!important;border:none;margin:0px!important;">
+												
+												
+												
+                                             
+												<p>
+                                                                                    <form id="myform" action="#">
+                                                                                                <span style="font-weight:500!important;font-size:24px!important;font-family: 'Raleway', sans-serif !important;color:#555;">Let's take a ride !</span>
+                                                                                              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                                                                <input class="mdl-textfield__input" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" >
+                                                                                                <label class="mdl-textfield__label" style="font-size:16px!important;" for="email">Email</label>
+                                                                                                <span class="mdl-textfield__error">Entrez un mail valide.</span>
+                                                                                              </div>
+                                                                                              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                                                                  <input class="mdl-textfield__input" type="text" id="firstname" >
+                                                                                                  <label class="mdl-textfield__label" style="font-size:16px!important;" for="firstname">Prénom</label>
+                                                                                                  
+                                                                                                </div>
+                                                                                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                                                                    <input class="mdl-textfield__input" type="text" id="lastname" >
+                                                                                                    <label class="mdl-textfield__label" style="font-size:16px!important;" for="lastname">Nom</label>
+                                                                                                    
+                                                                                                  </div>
+                                                                                                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                                                                      <input class="mdl-textfield__input" type="text" id="company">
+                                                                                                      <label class="mdl-textfield__label" style="font-size:16px!important;" for="compagny">Entreprise</label>
+                                                                                                      
+                                                                                                    </div>
+                                                                                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                                                                        <input class="mdl-textfield__input" type="text" id="title">
+                                                                                                        <label class="mdl-textfield__label" style="font-size:16px!important;" for="title">Fonction</label>
+                                                                                                        
+                                                                                                      </div>
+                                                                                                      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                                                                                                          <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+                                                                                                          <span class="mdl-checkbox__label" style="font-size:12px!important;font-weight: 400;color: #adadad;" >Informez-moi de vos prochains événements.</span>
+                                                                                                        </label>
+                                                                                                        <center>
+                                                                                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent " style="width:80%; margin-top:30px;border-radius:20px;">
+                                                                                                            Commencer
+                                                                                                          </button>
+                                                                                                        </center>
+                                                                                            </form>
+													
+												</p>
+												<p>
+
+													
+												</p>	
+											</div>
+											
+											<div id="linkedindone" class="alert alert-success row-sm-5" style="display:none;">
+												<p> Vous êtes authentifié(e) en tant que <span id="user" style="font-weight:700;"></span></p>
+												
+												<label for="emailAddress" class="form-label" style="font-weight:800 !important;padding-top:8px;">Votre adresse Email professionnelle :</label>
+												<p id="email_login" style="color:#ff3300;font-size:12px;"></p>
+												<input type="text" name="emailAddress" style="font-family:'Helvetica' !important" class="form-control" required="required" id="emailAddress" autocomplete="off">
+
+												<i class="form-control-feedback fv-icon-no-label" data-fv-icon-for="emailAddress" style="display: none;"></i>
+												<div id="cie_id" style="display:none">
+													<label for="cie_id" class="form-label" style="font-weight:800 !important;padding-top:8px;">Entreprise évaluée </label>
+													<select id="cie" name="company" class="form-control" autocomplete="off"></select>
+
+												</div>
+												
+												
+											</div>
+										</div>
+		
+									
+								</div>
+							</div>
+							<div role="tabpanel" id="menu0" class="tab-pane fade" style="height:500px!important;">
+									<div class="gauche">
+										
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+									<br/>
+									<br/>
+									<h4>Dimension #1 / 7</h4>
+									<h1>Leadeship</h1>
+									
+									<h3 style="font-size: 30px !important;margin-top: 20px;">"Il n’y a qu’une seule stratégie gagnante : définir précautionneusement votre audience cible, puis lui adresser une offre supérieure aux autres."</h3>
+									<p></p>
+									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
+											
+											<li class="picture_next" next="2"><a href="#">Next</a></li>
+										</ul>
+									</div>
+	
+										<img class="no-mobile" src="images/leader.jpg" style="position:absolute;top:0px;right:-30px;">
+								</div>
+							<div role="tabpanel" id="menu1" class="tab-pane fade">
+								
+								<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation
+								
+								<h2>Leadership</h2>
+								<h3>Où en est votre entreprise ?</h3>
+
+								<div class="radio">
+									<label><input type="radio" name="Orientation_Strategy" value="0" data="1" autocomplete="off">Aucune stratégie de Demand Generation n'a été initiée. L'entreprise priorise davantage les actions commerciales que les activités Marketing.</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="Orientation_Strategy" value="1" data="2" autocomplete="off">L'équipe Marketing a mis en place quelques tactiques de Lead Generation mais il n'y a aucune initiative coordonnée avec les équipes commerciales. 
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="Orientation_Strategy" value="2" data="3" autocomplete="off">L'entreprise a commencé à déployer une stratégie de Demand Generation. Les commerciaux comprennent qu'il s'agit d'un véritable moteur pour réaliser leurs objectifs grâce à la fourniture de leads qualifiés.
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="Orientation_Strategy" value="3" data="4" autocomplete="off">Notre stratégie de Demand Generation est clairement définie, intégrée, alignée et déployée pour l'ensemble de l'organisation et ses activités Business. Son impact Business est clairement mesuré.
+									</label>
+								</div>
+								<br/>
+								
+
+								<h3>Comment le Top Management voit-il la Demand Generation ?</h3>
+								<div class="radio">
+									<label><input type="radio" name="Orientation_Buyin" value="4" data="1" autocomplete="off">La direction connait très peu ce sujet. La demand Generation est une activité peu développée et 'hébergée' par le Marketing.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Orientation_Buyin" value="5" data="2" autocomplete="off">La direction reconnait que c'est un sujet important mais pas suffisamment pour dégager des ressources supplémentaires. </label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Orientation_Buyin" value="6" data="3" autocomplete="off">La direction a compris que la Demand Generation est un cadre stratégique qui cherche à engager les clients de façon productive et pérenne. Dans ce sens, elle soutient toutes les initiatives et s'intéresse aux résultats.  </label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Orientation_Buyin" value="7" data="4" autocomplete="off">La Demand Generation est un cadre stratégique qui est au coeur de la stratégie de croissance de l'entreprise. La direction en a fait un véritable avantage concurrentiel.</label>
+								</div>
+								<br/>
+								
+
+								<h3>Les équipes connaissent-elles la Demand Generation ?</h3>
+								<div class="radio">
+									<label><input type="radio" name="Orientation_Knowledge" value="8" data="1" utocomplete="off">Les principes et les activités spécifiques à la Demand Generation ne sont pas compris.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Orientation_Knowledge" value="9" data="2" autocomplete="off">Les équipes commencent à s'y intéresser et ont initié quelques actions spécifiques et isolées. </label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Orientation_Knowledge" value="10" data="3" autocomplete="off">Les équipes comprennent la Demand Generation. L'objectif est maintenant d'optimiser la stratégie, d'élever le niveau d'éxécution opérationnelle et d'aller plus loin.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Orientation_Knowledge" value="11" data="4" autocomplete="off">L'entreprise a complètement intégré la Demand Generation et la compréhension du client à sa stratégie. Les équipes cherchent à innover et recherchent en permanence les moyens d'optimiser l'impact Business. </label>
+								</div>
+
+								
+								<ul class="pager">
+									<li style="display:none;"><a href="#">Previous</a></li>
+									<li class="disabled"><a href="#">Next</a></li>
+								</ul>
+								</h2>
+							</div>
+
+							<div role="tabpanel" id="menu2" class="tab-pane fade" style="height:500px!important;">
+								<div class="gauche" >
+								<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+								<br/>
+								
+								<h4>Dimension #2 / 7</h4>
+								<h1>Customer centricity</h1>
+								
+								<h3 style="font-size: 30px !important;margin-top: 20px;">"En tant que marketeurs, nous devrions faire évoluer notre mantra de "toujours attirer de nouveaux clients" vers "toujours aider nos clients".</h3>
+								<p>Jonathan Linster, LinkedIn</p>
+								<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
+										<li class="picture_prev" prev="2"><a href="#">Previous</a></li>
+										<li class="picture_next" next="4"><a href="#">Next</a></li>
+									</ul>
+								</div>
+
+									<img class="no-mobile" src="images/customer.jpg" style="position:absolute;top:0px;right:-30px;">
+							</div>	
+							<div role="tabpanel" id="menu3" class="tab-pane fade">
+								
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+								<h2>Customer centricity</h2>
+								
+								<h3>Comment utilisez-vous les personas?</h3>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Centricity" value="12" data="1" autocomplete="off">Nous avons rassemblé quelques données autour de personas mais leur exploitation est très limitée.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Centricity" value="13" data="2" autocomplete="off">Le Marketing a initié un travail sur les personas sur la base de données internes, et également un travail sur la proposition de valeur.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Centricity" value="14" data="3" autocomplete="off">Nous avons impliqué nos clients et prospects pour développer des personas. Ils sont clés pour toutes les initiatives de contenus et de Sales Enablement. Ils sont au coeur de nos scénarii de contact et d'engagement avec nos prospects et nos clients.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Centricity" value="15"  data="4" autocomplete="off">Nous sommes extrêmement bien avancés sur les personas. De plus, nous recueillons et développons en permanence des besoins et des insights qui anticipent et documentent des scenarii futurs et notre planning stratégique. Ils sont complétés à partir de programme d’étude et recherche adhoc et servent à optimiser nos approches existantes et à innover.</label>
+								</div>
+								<br/>
+								
+
+								<h3>Parcours d'achat</h3>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Lifecycle" value="16" data="1" autocomplete="off">Nous n'avons pas travaillé sur notre parcours d'achat et les besoins spécifiques du parcours digital de nos prospects. Nous n'avons pas formalisé de Customer Lifecycle</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Lifecycle" value="17" data="2" autocomplete="off">Le Marketing a cartographié toutes les étapes du parcours de décision de nos prospects, identifié les participants, leurs rôles et leurs besoins spécifiques à chaque étape. Quelques contenus spécifiques pour quelques étapes du parcours ont été sélectionnés.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Lifecycle" value="18" data="3" autocomplete="off">Nous collaborons avec les Ventes pour améliorer tous les outils d'aide à la vente, les contenus d'aide à la décision, travailler des propositions de valeurs spécifiques aux attentes et aux "pain points" des personas. </label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Lifecycle" value="19" data="4" autocomplete="off">Nous avons une solide stratégie de contenu et les activités Marketing et commerciales sont parfaitement coordonnées autour du parcours d'achat (scenarii d'engagement, Account-based marketing...). Tous les processus sont réévalués annuellement pour améliorer les taux de conversions et la productivité commerciale de l'entreprise.</label>
+								</div>
+								<br/>
+								
+
+
+								<h3>Customer experience</h3>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Strategy" value="20" data="1" autocomplete="off">Elle n'a jamais été évaluée dans son ensemble.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Strategy" value="21" data="2" autocomplete="off">Nous menons occasionellement des enquêtes de satisfaction auprès de nos clients.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Strategy" value="22" data="3" autocomplete="off">Chaque point de contact client a été cartographié. Leur efficacité a été évaluée en fonction du risque et de l'impact pour le client et notre Business.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Customer_Strategy" value="23" data="4" autocomplete="off">Nous gérons tous nos points de contact avec nos clients et exploitons des outils dédiés avec lesquels nous mesurons en permanence l'efficacité (taux de résolution au premier contact, durée moyenne de traitement...)</label>
+								</div>
+								<ul class="pager">
+									<li><a href="#">Previous</a></li>
+									<li class="disabled"><a href="#">Next</a></li>
+								</ul>
+							</div>
+
+							<div role="tabpanel" id="menu4" class="tab-pane fade" style="height:500px!important;">
+									<div class="gauche">
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+									<br/>
+									<br/>
+									<h4>Dimension #3 / 7</h4>
+									<h1>Organisation</h1>
+									
+									<h3 style="font-size: 30px !important;margin-top: 20px;">"La raison d'être d'une organisation est de permettre à des gens ordinaires de faire des choses extraordinaires."</h3>
+									<p>Peter Drucker</p>
+									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
+											<li class="picture_prev" prev="4"><a href="#">Previous</a></li>
+											<li class="picture_next" next="6"><a href="#">Next</a></li>
+										</ul>
+									</div>
+	
+										<img class="no-mobile" src="images/orga.jpg" style="position:absolute;top:0px;right:-30px;">
+									</div>
+							<div role="tabpanel" id="menu5" class="tab-pane fade">
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+								<h2>Organisation
+								
+								
+								<h3>Comment les équipes collaborent-elles ?</h3>
+								<div class="radio">
+									<label><input type="radio" name="Organisation_Alignement" value="24" data="1" autocomplete="off">Le Marketing et les Ventes travaillent en silos. Les Ventes sont autonomes pour organiser le suivi commercial de leurs prospects.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Organisation_Alignement" value="25" data="2" autocomplete="off">Il y a quelques échanges entre Marketing, Ventes et le Service Client, mais peu d'échanges sur la réelle 'contribution' au business des différents services. </label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Organisation_Alignement" value="26" data="3" autocomplete="off">Les Ventes et le  Marketing collaborent régulièrement pour améliorer le scoring et les critères de qualification des leads.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Organisation_Alignement" value="27" data="4" autocomplete="off">Le Marketing et les Ventes partagent des objectifs communs (et donc des intéressements). De fait, les équipes sont parfaitement alignées et les rôles et responsabilités de chacun clairement établis.</label>
+								</div>
+								<br/>
+
+
+								<h3>Quels process avez-vous mis en place ?</h3>
+
+								<div class="radio">
+									<label><input type="radio" name="Organisation_Processes" value="28" data="1" autocomplete="off">Aucun processus particulier n'est en place pour soutenir la Demand Generation.
+									</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Organisation_Processes" value="29" data="2" autocomplete="off">Quelques process ont été mis en place pour faciliter certaines activités de Demand Generation. Un langage commun a été adopté (MQL,SQL, SRL...)
+									</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Organisation_Processes" value="30" data="3" autocomplete="off">Les Ventes et le Marketing collaborent régulièrement pour améliorer le scoring et les critères de qualification des leads.
+									</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Organisation_Processes" value="31" data="4" autocomplete="off">Les Ventes et le Marketing se sont coordonnés pour établir un langage commun, des critères de qualification précis et des régles d'engagement commercial pour accélérer le tunnel de conversion.
+									</label>
+								</div>
+
+								<ul class="pager">
+									<li><a href="#">Previous</a></li>
+									<li class="disabled"><a href="#">Next</a></li>
+								</ul>
+							</h2></div>
+							<div role="tabpanel" id="menu6" class="tab-pane fade" style="height:500px!important;">
+									<div class="gauche">
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+									<br/>
+									<br/><br/>
+									<h4>Dimension #4 / 7</h4>
+									<h1>Execution</h1>
+									
+									<h3 style="font-size: 30px !important;margin-top: 20px;">“La communication, comme la guerre, est un art simple, et tout d’exécution.”</h3>
+									<p>Luc Ferry</p>
+									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
+											<li class="picture_prev" prev="6"><a href="#">Previous</a></li>
+											<li class="picture_next" next="8"><a href="#">Next</a></li>
+										</ul>
+									</div>
+	
+										<img class="no-mobile" src="images/flower.jpg" style="position:absolute;top:0px;right:-30px;">
+									</div>
+							<div role="tabpanel" id="menu7" class="tab-pane fade">
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+								<h2>Execution
+                                                
+                                                            <h3>Quel est votre niveau d'éxécution ?</h3>
+                                                            <div class="radio">
+                                                                  <label><input type="radio" name="Execution_Operational" value="32" data="1" autocomplete="off">Nous avons quelques landing pages avec peu de contenu ciblé. Le paid search, de la publicité, un SEO basique et des actions de Marketing événementiel sur les salons, sont nos principales tactiques Marketing.</label>
+                                                            </div>
+                                                            <div class="radio">
+                                                                  <label><input type="radio" name="Execution_Operational" value="33" data="2" autocomplete="off">Nous faisons de la lead generation et du nurturing. Campagnes d'emailing, événements, content marketing, SEO et publicité digitale sont régulièrement utilisés.</label>
+                                                            </div>
+                                                            <div class="radio">
+                                                                  <label><input type="radio" name="Execution_Operational" value="34" data="3" autocomplete="off">Du contenu expérientiel, une stratégie sociale, mobile et vidéo sont au coeur de nos stratégies de Demand Generation. Nous avons investi largement dans la publicité digitale et les événements digitaux.</label>
+                                                            </div>
+                                                            <div class="radio">
+                                                                  <label><input type="radio" name="Execution_Operational" value="35" data="4" autocomplete="off">Nos dispositifs pour engager nos prospects et clients sont très avancés. Nous avons fait des efforts particuliers pour développer des contenus à haute valeur ajoutée, à travers des applications interactives et sociales. Nous cherchons à être innovant et créatif.</label>
+										</div>
+										<br/>
+                                                            
+								
+
+								<h3>Quelles sont vos capacités stratégiques en Demand generation?</h3>
+								<div class="radio">
+									<label><input type="radio" name="Execution_Strategy" value="36" data="1" autocomplete="off">Nous n'avons pas de process clairement défini et nous concevons et déployons nos activités souvent dans l'urgence.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Execution_Strategy" value="37" data="2" autocomplete="off">Nous apprenons en marchant et de chacune de nos précédentes activités et programmes. Nous testons de temps à autres de nouvelles choses.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Execution_Strategy" value="38" data="3" autocomplete="off">Nous avons clairement défini ce qu'est une campagne, ce qu'elle comprend (objectifs, data, Insights, process, SLA, Sales enablement, KPIs & KPQs...) et toutes les étapes de sa mise en oeuvre.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Execution_Strategy" value="39" data="4" autocomplete="off">Notre processus stratégique et opérationnel est rodé pour concevoir et lancer des campagnes pour engager nos prospects et nos clients. Les campagnes sont parfaitement alignées entre nos objectifs stratégiques, notre positionnement de marques et nos objectifs Business et mesurer leur efficacité.</label>
+								</div>
+								<ul class="pager">
+									<li><a href="#">Previous</a></li>
+									<li class="disabled"><a href="#">Next</a></li>
+								</ul>
+							</h2></div>
+							<div role="tabpanel" id="menu8" class="tab-pane fade" style="height:500px!important;">
+									<div class="gauche">
+										
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+									<br/>
+									<h4>Dimension #5 / 7</h4>
+									<h1>Technos</h1>
+									
+									<h3 style="font-size: 30px !important;margin-top: 20px;">“Tôt ou tard la technologie permet à tout le monde d'accomplir ce que des gens exceptionels accomplissaient.”</h3>
+									<p>Roland Topor </p>
+									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
+											<li class="picture_prev" prev="8"><a href="#">Previous</a></li>
+											<li class="picture_next" next="10"><a href="#">Next</a></li>
+										</ul>
+									</div>
+	
+										<img class="no-mobile" src="images/techno.jpg" style="position:absolute;top:0px;right:-30px;">
+							</div>
+							<div role="tabpanel" id="menu9" class="tab-pane fade">
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+								<h2>Technologie Marketing
+
+								<h3>Quels types d'outils et plateformes utilisez-vous?</h3>
+								<div class="radio">
+									<label><input type="radio" name="Technology_Tools" value="40" data="1" autocomplete="off">Nous utilisons peu d'outils. Beaucoup de choses se font 'à la main'.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Technology_Tools" value="41" data="2" autocomplete="off">Nous utilisons quelques outils qui couvrent des besoins fonctionnels spécifiques. Ex :  outil d'emailing, Content Management System...</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Technology_Tools" value="42" data="3" autocomplete="off">Nous pilotons notre stratégie de contenu, nos activités d'emailing, nos événements en ligne, notre SEO avec des outils dédiés. Nous avons un CRM mais les outils ne sont pas connectés avec celui-ci et ne nous permettent pas d'obtenir une vue du client à 360°.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Technology_Tools" value="43" data="4" autocomplete="off">Des plateformes avancées (CRM, Marketing Automation, Analytics, Social network.. ) ont été déployées et sont utilisées pour éxécuter la stratégie digitale de l'entreprise. Toutes sont interconnectés et les équipes ont une visibilité à 360° de chacun de nos clients.</label>
+								</div>
+								<br/>
+
+								<h3>Quel est le niveau d'intégration technique de votre entreprise?</h3>
+								<div class="radio">
+									<label><input type="radio" name="Technology_Integration" value="44" data="1" autocomplete="off">Aucune intégration entre systèmes n'a été réalisée à ce stade. </label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Technology_Integration" value="45" data="2" autocomplete="off">Une intégration limitée entre systèmes est en cours.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Technology_Integration" value="46" data="3" autocomplete="off">Quelques intégrations entre systèmes ont été effectuées.  La plateforme de Marketing Automation est synchronisée avec le CRM.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Technology_Integration" value="47" data="4" autocomplete="off">Toutes les activités de Demand Generation sont intégrées dans une plateforme complète de Digital Marketing. Le CRM de l'entreprise, le Marketing Automation et d'autres systèmes ERP sont tous parfaitement intégrés.</label>
+								</div>
+
+								
+								<ul class="pager">
+									<li><a href="#">Previous</a></li>
+									<li class="disabled"><a href="#">Next</a></li>
+								</ul>
+							</h2></div>
+							<div role="tabpanel" id="menu10" class="tab-pane fade" style="height:500px!important;">
+									<div class="gauche">
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+									<br/>
+									<br/><br/><h4>Dimension #6 / 7</h4>
+									<h1>Ressources & Budget</h1>
+									
+									<h3 style="font-size: 30px !important;margin-top: 20px;">"8 marketers sur 10 se plaignent d'avoir un budget insuffisant."</h3>
+									<p></p>
+									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
+											<li class="picture_prev" prev="10"><a href="#">Previous</a></li>
+											<li class="picture_next" next="12"><a href="#">Next</a></li>
+										</ul>
+									</div>
+	
+										<img class="no-mobile" src="images/team.jpg" style="position:absolute;top:0px;right:-30px;">
+							</div>
+							<div role="tabpanel" id="menu11" class="tab-pane fade">
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+								<h2>Ressources &amp; Budget 
+
+								<h3>Budget</h3>
+								<div class="radio">
+									<label><input type="radio" name="Budget_Allocations" value="48" data="1" autocomplete="off">Aucun budget n'a été dédié à la Demand Generation.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Budget_Allocations" value="49" data="2" autocomplete="off">Un budget modeste est dédié pour des programmes et des actions de Lead Generation.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Budget_Allocations" value="50" data="3" autocomplete="off">Un budget est dédié pour les programmes d'engagement clients et prospects. Il est à la hauteur des Business Cases qui ont été réalisés.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Budget_Allocations" value="51" data="4" autocomplete="off">Un budget significatif est dédié à la stratégie de Demand Generation et est parfaitement aligné avec nos enjeux Business. Des objectifs de Demand Generation clairs ont été définis.</label>
+								</div>
+
+								<h3>Rôles &amp; Responsabilités</h3>
+								<div class="radio">
+									<label><input type="radio" name="Budget_Roles" value="52" data="1" autocomplete="off">Des activités de Lead Generation sont pilotées à la seule initiative du Marketing.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Budget_Roles" value="53" data="2" autocomplete="off">Des rôles et responsabilités ont été établis pour l'activité Demand Generation. Un Manager est dédié au projet.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Budget_Roles" value="54" data="3" autocomplete="off">Les rôles spécifiques pour les activités de Demand Generation ont été établis au sein des équipes marketing et commerciales. Ils sont clés pour mener à bien la stratégie. Un VP ou Directeur Demand Generation est dédié pour lancer, piloter et mesurer l'ensemble des activités.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Budget_Roles" value="55" data="4" autocomplete="off">L'organisation est alignée pour que la Demand Generation crée un maximum d'impact. Des règles d'engagement commercial et Marketing sont clairement définies tout au long du cycle de vie du client.</label>
+								</div>
+
+								<h3>Compétences &amp; Expertises internes</h3>
+								<div class="radio">
+									<label><input type="radio" name="Budget_DemandgenTeam" value="56" data="1" autocomplete="off">Les membres de l'équipe n'ont aucune expérience en Demand Generation.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Budget_DemandgenTeam" value="57" data="2" autocomplete="off">L'équipe se documente et apprend sur les bases des frameworks de la Demand Generation.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Budget_DemandgenTeam" value="58" data="3" autocomplete="off">L'équipe a une connaissance approfondie et une excellente maîtrise. Elle connait les composantes de la Demand Generation et apprend en permanence.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Budget_DemandgenTeam" value="59" data="4" autocomplete="off">L'équipe est experte et reconnue comme telle au sein de l'entreprise. Le niveau de compétence est elevé. Des personnes ont été certifiées sur des plateformes ou continuent à se former régulièrement auprès d'experts de la Demand Generation et du Marketing.</label>
+								</div>
+
+								
+								<ul class="pager">
+									<li><a href="#">Previous</a></li>
+									<li class="disabled"><a href="#">Next</a></li>
+								</ul>
+							</h2></div>
+							<div role="tabpanel" id="menu12" class="tab-pane fade" style="height:500px!important;">
+									<div class="gauche">
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+									<br/>
+									<br/><br/><h4>Dimension #7 / 7</h4>
+									<h1>Mesure <br/>de la performance</h1>
+									
+									<h3 style="font-size: 30px !important;margin-top: 20px;">"L'amélioration continue vaut mieux qu'envisager la perfection."</h3>
+									<p>Marc Twain</p>
+									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
+											<li class="picture_prev" prev="12"><a href="#">Previous</a></li>
+											<li class="picture_next" next="14"><a href="#">Next</a></li>
+										</ul>
+									</div>
+	
+										<img class="no-mobile" src="images/perf.jpg" style="position:absolute;top:0px;right:-30px;">
+							</div>
+							<div role="tabpanel" id="menu13" class="tab-pane fade">
+									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
+								<h2>Reporting &amp; Analytics
+
+									<h3>Quels sont les compténces analytiques de votre entreprise ?</h3>
+										<div class="radio">
+											<label><input type="radio" name="Metrics_Competencies" value="60" data="1" autocomplete="off">Peu ou pas d'expertise analytique.</label>
+										</div>
+										<div class="radio">
+											<label><input type="radio" name="Metrics_Competencies" data="2" value="61" autocomplete="off">Des fonctions basiques et des dashboards existent. Des développements pour répondre à quelques enjeux Business sont actuellement en cours. </label>
+										</div>
+										<div class="radio">
+											<label><input type="radio" name="Metrics_Competencies" value="62" data="3" autocomplete="off">La capacité analytique de l'entreprise est développée. L'organisation appuie de plus en plus son reporting sur des visions analytiques. Des Dashboards automatisés sont suivis.</label>
+										</div>
+										<div class="radio">
+											<label><input type="radio" name="Metrics_Competencies" data="4" value="63" autocomplete="off">La capacité analytique est très avancée, et les données sont exploitées dynamiquement (predictive marketing, dynamic content) et permettent un pilotage en temps réel du Marketing.</label>
+										</div>
+										<br/>
+
+								<h3>Comment mesurez-vous la performance ?</h3>
+								<div class="radio">
+									<label><input type="radio" name="Metrics_Performance" value="64" data="1" autocomplete="off">Aucun objectif SMART n'est formalisé en amont d'une campagne.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Metrics_Performance" value="65" data="2" autocomplete="off">Nos indicateurs de performance se concentrent sur l'efficacité de quelques canaux comme le SEO, le display, l'emailing et les campagnes de contenu. </label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Metrics_Performance" value="66" data="3" autocomplete="off">Nous utilisons des reportings. Nos indicateurs se concentrent sur le tunnel de vente et incluent le lead scoring et la qualification des leads. Nous faisons de l'AB testing pour optimiser l'efficacité de nos canaux d'activation.</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Metrics_Performance" value="67"  data="4" autocomplete="off">Tous les indicateurs sont synthétisés sur des dashboards accessibles à toutes les équipes et incluent le ROI des campagnes, la contribution au Business pipeline, le niveau d'engagement des prospects/clients, etc...</label>
+								</div>
+
+								
+								<ul class="pager">
+									<li><a href="#">Previous</a></li>
+									<li class="disabled"><a href="#">Next</a></li>
+								</ul>
+							</h2></div>
+							<div role="tabpanel" id="menu14" class="tab-pane fade">
+								<img id="theory-logo" src="https://s3-eu-west-1.amazonaws.com/pixbucket/logo/logo+theroy+global+noir+150.png" style="width:120px;padding:30px 0 20px 0;">
+								<a href="#" class="no-mobile" onclick="window.print();event.preventDefault();"><i class="material-icons" style="position:absolute;top:15px;right:0px;font-size:48px;color:#AAA;">print</i></a>
+								<center>
+										<h2 style="color:#777;font-family: 'Ubuntu'!important;font-size:26px;">Demand Generation</h2>
+										<h1 style="font-size:32px;">Vos résultats <span id="score" style="font-family:'Ubuntu';font-size:52px;color:#000"></span>
+										<span style="font-size:32px;color:#000;padding-right:15px;">/4</span></h1>
+									</center>
+								<table>
+									<tr id="main_score" style="border-top:0px solid #FFFF00;" valign="top">
+										
+										<td><h4 id="cie_score" style="font-family:'Roboto Medium' !important;font-size:18px;"> </h4>
+
+
+											<!-- -->
+										
+
+										</div></td>
+									</tr>
+
+								</table>
+
+								<!--
+								<a href="#" id="return" onclick="$('.col-xs-4').css('width','33%');$('.col-xs-8').css('width','67%');event.preventDefault();" style="font-weight:900 !important;">Retourner au questionnaire</a>
+							-->
+
+													
+								<div style="padding-top:0px;">
+									
+										<div>
+											
+
+											<div>
+												<center>
+												<canvas id="myChart" width="400px" height="400px" style="height:400px !important; width:400px!important;margin-top:-40px;"></canvas>
+												</center>
+											</div>
+											
+
+											<div id="page_break" style="margin-top:40px;padding:20px;">
+
+												<h4 style="font-family:'Ubuntu' !important;font-size:20px;"> Détails de votre score</h4>
+												
+
+												
+												<table style="margin-top: 30px;">
+													<tr id="score_orientation_border" style="border-top:3px solid #FFFF00;" valign="top">
+														<td class="cs" rowspan="2">
+															<span  class="cs1" id="score_orientation" style="font-size:48px;color:#777">2.5</span>
+															<span  class="cs2" style="font-size:32px;color:#777;padding-right:15px;">/4</span></td>
+														<td>
+															<h4 style="font-family:'Ubuntu' !important;font-size:24px;"> Leadership </h4>
+															<p>Aujourd’hui, la performance des entreprises est étroitement liée à leur aptitude à coller à leurs marchés, aux attentes et aux besoins de leurs clients et à la maîtrise de leurs audiences.</p>
+															<p>Elles ont fait le choix d’un marketing moderne, créatif, digital, social, orienté data, avec des propositions de valeurs et d’expérience consistantes, pertinentes et différençiantes. Elles ont redéfini, structuré (CRM) et industrialisé (Marketing Automation) leurs approches marketing et commerciales en remettant le client au coeur de leur stratégie, de leur organisation et de leur culture.</p>
+														</td>
+													</tr>
+													<tr>	
+														
+														<td>
+															<h5 id="title_ans">Vos réponses :</h5>
+															<span class="ans" id="answer_0"></span>
+															<span class="ans" id="answer_1"></span>
+															<span class="ans" id="answer_2"></span>
+
+
+
+														</td>
+													</tr>
+
+												</table>
+
+												<table style="margin-top: 30px;">
+													<tr id="score_Leadership_border" style="border-top:3px solid #FFFF00;" valign="top">
+														<td  class="cs" rowspan="2">
+															<span  class="cs" id="score_Leadership" style="font-size:48px;color:#777">2.5</span>
+															<span  class="cs" style="font-size:32px;color:#777;padding-right:15px;">/4</span></td>
+														<td>
+															<h4 style="font-family:'Ubuntu' !important;font-size:24px;"> Customer Centricity </h4>
+															<p>Quand une entreprise veut accélérer sa croissance, elle doit accroître son flux de nouveaux prospects et augmenter son taux de conversion pour acquérir plus de nouveaux clients.</p>
+															<p>Beaucoup d'entreprises essayent d'y parvenir en multipliant leurs efforts : dépenser plus d'argent en promotion et publicité, plus de temps à la chasse de nouveaux prospects, plus d'efforts pour lancer plus de campagnes...</p>
+															<p>Malheureusement, elles négligent souvent d'optimiser, de transformer leur proposition de valeur en une proposition d'expérience, d'améliorer et d'optimiser leur Customer Experience qui préside désormais aux attentes de toutes les étapes de cycle de vie du client.</p>
+
+															
+														</td>
+													</tr>
+													<tr>	
+														<td colspan="2">
+															<h5 id="title_ans">Vos réponses :</h5>
+															
+															<span class="ans" id="answer_3"></span>
+															<span class="ans" id="answer_4"></span>
+															<span class="ans" id="answer_5"></span>
+														</td>
+													</tr>
+
+												</table>
+
+												<table style="margin-top: 30px;">
+													<tr id="score_Organisation_border" style="border-top:3px solid #FFFF00;" valign="top">
+														<td  class="cs" rowspan="2">
+															<span  class="cs" id="score_Organisation" style="font-size:48px;color:#777">2.5</span>
+															<span  class="cs" style="font-size:32px;color:#777;padding-right:15px;">/4</span></td>
+														<td>
+															<h4 style="font-family:'Ubuntu' !important;font-size:24px;"> Organisation </h4>
+															<p>Un des piliers de la Demand genaration est la collaboration et la coordination entre les initiatives marleting et commerciales. </p> 
+															<p>Le Marketing doit soutenir les efforts des équipes commerciales tandis que ces derniers doivent mettre en oeuvre des règles d’engagent qui garantissent qu’aucun prospect n’échappe aux mailles du filet, autour d'un plan d'action commerciale et des objectifs communs.</p>
+														</td>
+													</tr>
+													<tr>	
+														<td colspan="2">
+															<h5 id="title_ans">Vos réponses :</h5>
+															<span class="ans" id="answer_6"></span>
+															<span class="ans" id="answer_7"></span>
+															
+														</td>
+													</tr>
+
+												</table>
+												<table style="margin-top: 30px;">
+													<tr id="score_Demand_border" style="border-top:3px solid #FFFF00;" valign="top">
+														<td class="cs" rowspan="2">
+															<span class="cs" id="score_Demand" style="font-size:48px;color:#777">2.5</span>
+															<span class="cs" style="font-size:32px;color:#777;padding-right:15px;">/4</span></td>
+														<td>
+															<h4 style="font-family:'Ubuntu' !important;font-size:24px;"> Exécution </h4>
+															<p>De sa conception stratégique à son exécution, en passant par le choix du positionnement, le messaging, l’audience, les assets... la mise en oeuvre une campagne est un exercice complexe. Il nécessite de nombreuses décisions et des efforts d’alignement constant au sein de l’entreprise.</p>
+															<p>Les compagnies les plus performantes ont mis en place des « campaign framework » pour maximiser le retour sur investissement de leurs efforts et les managers instaurent des principes d'amélioration continue avec leurs équipes.
+                                                                                          Plus les équipes maîtrisent un large éventail de dispositifs digitaux, plus elles sont performantes.</p>
+														</td>
+													</tr>
+													<tr>	
+														<td colspan="2">
+															<h5 id="title_ans">Vos réponses :</h5>
+															
+															<span class="ans" id="answer_8"></span>
+															<span class="ans" id="answer_9"></span>
+															
+														</td>
+													</tr>
+
+												</table>
+												<table style="margin-top: 30px;">
+													<tr id="score_Techno_border" style="border-top:3px solid #FFFF00;" valign="top">
+														<td class="cs" rowspan="2">
+															<span class="cs"  id="score_Techno" style="font-size:48px;color:#777">2.5</span>
+															<span  class="cs" style="font-size:32px;color:#777;padding-right:15px;">/4</span></td>
+														<td>
+															<h4 style="font-family:'Ubuntu' !important;font-size:24px;"> Technologie Marketing </h4>
+															<p>Un monde de possibilité et d'opportunité pour engager et satisfaire et fidéliser les clients, s'ouvrent lorsque votre stack technologique est cohérent : Marketing automation, CRM, plateforme d’event online, outils de Social Selling, Social Listening, Chatbots, Intelligence Artificielle, Virtual Reality CMS, Analytics...</p>
+                                                                                          <p>Lorsqu'elles sont interopérables, les technologies se mettent au service des objectifs stratégiques de l’entreprise. Lorsqu'elles sont maîtrisées, elles rendent souvent possible l'innovation de rupture.</p>
+														
+														</td>
+													</tr>
+													<tr>	
+														<td colspan="2">
+															<h5 id="title_ans">Vos réponses :</h5>
+															
+															<span class="ans" id="answer_10"></span>
+															<span class="ans" id="answer_11"></span>
+															
+														</td>
+													</tr>
+
+												</table>
+												<table style="margin-top: 30px;">
+													<tr id="score_Staff_border" style="border-top:3px solid #FFFF00;" valign="top">
+														<td class="cs" rowspan="2">
+															<span  class="cs" id="score_Staff" style="font-size:48px;color:#777">2.5</span>
+															<span  class="cs" style="font-size:32px;color:#777;padding-right:15px;">/4</span></td>
+														<td>
+															<h4 style="font-family:'Ubuntu' !important;font-size:24px;"> Ressources &amp; Budget </h4>
+															<p>La Demand Generation est un cadre stratégique qui recouvre des activités qui nécessitent de nouvelles compétences et de l'intelligence collective.</p>
+															<p>Acheter des licences d'un outil de CRM ou de Marketing Automation représente un coût. Transformer son organisation marketing et commercial représente un investissement dont les entreprises ne peuvent plus faire l'économie.</p>
+														</td>
+													</tr>
+													<tr>	
+														<td colspan="2">
+															<h5 id="title_ans">Vos réponses :</h5>
+															<span class="ans" id="answer_12"></span>
+															<span class="ans" id="answer_13"></span>
+															<span class="ans" id="answer_14"></span>
+															
+														</td>
+													</tr>
+
+												</table>
+												<table style="margin-top: 30px;">
+													<tr id="score_Reporting_border" style="border-top:3px solid #FFFF00;" valign="top">
+														<td class="cs" rowspan="2">
+															<span  class="cs" id="score_Reporting" style="font-size:48px;color:#777">2.5</span>
+															<span  class="cs" style="font-size:32px;color:#777;padding-right:15px;">/4</span></td>
+														<td>
+															<h4 style="font-family:'Ubuntu' !important;font-size:24px;"> Mesure de la performance </h4>
+															<p>Sommes-nous en train d'accomplir ce que nous avons prévu ? Comment l’avons-nous accompli ? Que pouvons-nous apprendre ? Ces trois questions structurent toutes l'activité analytique des entreprises les plus performantes.</p> 
+															<p>Elles récoltent en perrmanence des données qui répondent au standard AAA : Analytique (elles permettent de comprendre), Actionnable (elles aident à décider et agir), et Accessible (elles sont facilement disponibles).</p>
+
+														</td>
+													</tr>
+													<tr>	
+														<td colspan="2">
+															<h5 id="title_ans">Vos réponses :</h5>
+															<span class="ans" id="answer_15"></span>
+															<span class="ans" id="answer_16"></span>
+															
+															
+														</td>
+													</tr>
+
+												</table>
+
+												<p>&nbsp;</p>
+
+												<table id="what_next" style="width:100%">
+														<tr>
+															<td colspan="3">
+																	<br/><br/>
+	
+																<center><a href="#" onclick="window.print();event.preventDefault();" id="print_cta" style="font-size:14px;font-weight: 600;background-color:#f6b142;border-radius:4px;color:#fff;font-size:16px;padding:5px;"><i class="fa fa-print" style="color:#fff;"></i>&nbsp;&nbsp;Imprimer votre évaluation&nbsp;&nbsp;</a>
+																	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																	<a href="https://www.linkedin.com/company/theoryglobal" target="_blank" style="font-weight: 600;background-color:#337ab7;border-radius:4px;color:#fff;font-size:16px;padding:5px;height:20px !important;"><img src="https://s3-eu-west-1.amazonaws.com/pixbucket/Index/Icone/linkedin_ffffff_16.png" style="padding:5px;">&nbsp;&nbsp;Suivre TheoryGlobal&nbsp;&nbsp;</a>
+																</center>
+															</td>
+														</tr>
+														<tr>
+															<td valign="top" style="border-bottom:0px solid #ccc;" colspan="3"><br/><br/><center><span style="font-size:24px;">
+																Pour discuter de vos plans d'actions</span></center>
+																<br/>
+															</td>
+														</tr>
+														<tr valign="top">
+															
+																<td width="100%%" style="padding:10px;" colspan="2">
+                                                                                                
+                                                                                                
+																		<div style="float:left;width:50%px; margin:20px;">
+																			<img src="https://s3-eu-west-1.amazonaws.com/pixbucket/Index/tamara-grunebaum.png" style="width:60px;margin-top:0px;margin-bottom:15px; color:#000;" >
+																			<div style="font-size:16px;;color:#555;display:inline-block;font-weight:400;">
+																				Tamara Grunebaum - <a href="https://www.linkedin.com/in/tamaragrunebaum/" >Partner</a>
+																			<br/><a href="mailto:tamara.grunebaum@theoryglobal.com" style="color:#555;font-weight:300!important;">tamara.grunebaum@theoryglobal.com</a>
+																			</div>
+																			
+																			
+																		</div>
+																		<div style="float:left;width:50%x;margin:20px;">
+																			<img src="https://s3-eu-west-1.amazonaws.com/pixbucket/Index/Clement_Hurstel.png" style="width:60px;margin-top:0px;margin-bottom:15px; color:#000;" >
+																				<div style="font-size:16px;;color:#555;display:inline-block;font-weight:400;">
+																					Clément Hurstel - <a href="https://www.linkedin.com/in/churstel/">VP Demand Strategy</a>
+																				
+																				<br/><a href="mailto:clement.hurstel@theoryglobal.com" style="color:#555;font-weight:300!important;">clement.hurstel@theoryglobal.com</a>
+																		     </div>
+																		</div>
+																	
+																</td>
+															
+														</tr>
+														<tr>
+															<td colspan="3">
+	
+																<center>
+																<!-- Go to www.addthis.com/dashboard to customize your tools -->
+																<img id="theory-logo" src="https://s3-eu-west-1.amazonaws.com/pixbucket/logo/logo+theroy+global+noir+150.png" style="padding:30px 30px 20px 30px;width:180px;">
+																
+																</center>
+			
+															</td>
+														</tr>
+														
+													</table>
+												<p>&nbsp;</p>
+												
+											</div>
+										</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+													
+			</div>
+			<center> <!-- Copyright -->
+				<p class="small" style="font-size:12px!important;">
+						
+						
+					TheoryGlobal © 2019
+				</p>
+			</center>
+			<!-- https://script.google.com/macros/s/AKfycbwtiq4yIbJOhdOhTD6PRomz_SYOPOMyWkOdDpQHQ7v7EKYLlrs/exec?Email=churstel94poi@gmail.com&FirstName=Clément&LastName=Hurstel&Company=TheoryGlobal&Title=VP Demand Strat&Date=Mon Apr 15 2019 12:17:18 GMT+0200 (heure d’été d’Europe centrale)&Orientation_Strategy=4&Orientation_Buyin=4&Orientation_Knowledge=4&Customer_Centricity=4&Customer_Lifecycle=4&Customer_Strategy=4&Organisation_Processes=4&Organisation_Alignement=4&Execution_Operational=4&Execution_Strategy=4&Technology_Tools=4&Technology_Integration=4&Budget_Allocations=4&Budget_Roles=4&Budget_DemandgenTeam=4&Metrics_Competencies=4&Metrics_Performance=4
+				-->
+
+			<script type="text/javascript"> // register Google Sheet
+				
+				function register_gs(str) {
+					var scriptURL = "https://script.google.com/macros/s/AKfycbwtiq4yIbJOhdOhTD6PRomz_SYOPOMyWkOdDpQHQ7v7EKYLlrs/exec?"+str;
+					var app_name = "shortest distance";
+					if (str!=="") {
+					    // the name "id", "Class", "Class Number", "x-coord", "y-coord" must match the header row in the spreadsheet
+					    
+					    jQuery.ajax({url:scriptURL,
+					    dataType: "jsonp", // using jsonp to overcome the Same Origin Policy
+					    jsonp: "callback", 
+					    success: function( response ) {
+						  if (response.result == "success"){
+							console.log("added to row " + response.row);
+							console.log("Successfully submitted");
+						  }
+						  else{
+							console.log("Error: " + response.result);
+						  }
+					    }
+					});
+					} 
+					else {
+						console.log("Please input the class and class number");}
+					}
+
+
+			</script> 
+			
+
+
+		
+  
+  
+  </body>
+</html>
