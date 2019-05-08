@@ -334,12 +334,9 @@
 												 		//Pagination
 												 		$('#menu' + (e-1) + ' > .pager >li:first-child').click(function(){active_pane('' + (e-1) +'');});
 														
-														 
-
-												 		if(e==15){
-															console.log('#show' + (e));
-
-												 			$('#menu15').click(getresult());
+														 if(e==8){
+															
+												 			$('#menu8').click(getresult());
 												 			$('.col-xs-4').css('width','0%');
 												 			$('.col-xs-8').css('width','100%');
 
@@ -378,11 +375,8 @@
 														var score=$score;
 														var score1=$score1;
 														
-														 $score1[jQuery.inArray(this.name.toString(), $theme )]=$(this).attr('data');
-														 
-														 
-										
-														 $score[jQuery.inArray(this.name.toString(), $theme )]=this.value;
+														$score1[jQuery.inArray(this.name.toString(), $theme )]=$(this).attr('data');
+														$score[jQuery.inArray(this.name.toString(), $theme )]=this.value;
 														 
 														$final_score[0]=Math.round(((parseInt(score1[0])+parseInt(score1[1])+parseInt(score1[2]))/3)*10)/10;
 												 		$final_score[1]=Math.round(((parseInt(score1[3])+parseInt(score1[4]) +parseInt(score1[5]))/3)*10)/10;
@@ -405,33 +399,33 @@
 
 														 
 														 if(parseInt(score1[0])>0 && parseInt(score1[1])>0 && parseInt(score1[2])>0){
-															 $('#menu1>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(3);});
+															 $('#menu0>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(2);});
 															}
 
 														 if(parseInt(score[3])>0 && parseInt(score[4])>0 && parseInt(score[5])>0 ){
-															 $('#menu3>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(5);});
+															 $('#menu1>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(3);});
 															}
 
 														 if(parseInt(score[6])>0 && parseInt(score[7])>0){
-															 $('#menu5>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(7);});
+															 $('#menu2>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(4);});
 															}
 
 														 if(parseInt(score[8])>0 && parseInt(score[9])>0 ){
-															 $('#menu7>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(9);});
+															 $('#menu3>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(5);});
 														 }
 
 														 if(parseInt(score[10])>0 && parseInt(score[11])>0 ){
 															 
-														 	$('#menu9>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(11);});
+														 	$('#menu4>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(6);});
 															 
 														}
 
 														 if(parseInt(score[12])>0 && parseInt(score[13])>0 && parseInt(score[14])>0){
-															 $('#menu11>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(13);});
+															 $('#menu5>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(7);});
 															}
 
 														 if(parseInt(score[15])>0 && parseInt(score[16])>0 ){
-															 $('#menu13>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(15); 	
+															 $('#menu6>.pager>li:nth-child(2)').removeClass('disabled').click(function(){active_pane(8); 	
 														 });
 
 
@@ -441,10 +435,6 @@
 
 													});
 			</script>
-
-
-			
-
 			<!--Style -->
 			<style type="text/css">
 				.cs{padding-left:15px;width:180px!important;}
@@ -522,8 +512,10 @@
 				}
 				p, ul, li, label{
 					/*font-family: 'Roboto light',sans-serif !important;*/
-					font-size:18px !important;
-					font-weight:500 !important;
+					font-size:17px !important;
+					font-weight:200 !important;
+					color: #555;
+					
 					
 				}
 				b,strong{
@@ -909,26 +901,8 @@
 									
 								</div>
 							</div>
-							<div role="tabpanel" id="menu0" class="tab-pane fade" style="height:500px!important;">
-									<div class="gauche">
-										
-									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
-									<br/>
-									<br/>
-									<h4>Dimension #1 / 7</h4>
-									<h1>Leadeship</h1>
-									
-									<h3 style="font-size: 30px !important;margin-top: 20px;">"Il n’y a qu’une seule stratégie gagnante : définir précautionneusement votre audience cible, puis lui adresser une offre supérieure aux autres."</h3>
-									<p></p>
-									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
-											
-											<li class="picture_next" next="2"><a href="#">Next</a></li>
-										</ul>
-									</div>
-	
-										<img class="no-mobile" src="images/leader.jpg" style="position:absolute;top:0px;right:-30px;">
-								</div>
-							<div role="tabpanel" id="menu1" class="tab-pane fade">
+							
+							<div role="tabpanel" id="menu0" class="tab-pane fade">
 								
 								<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation
 								
@@ -994,25 +968,8 @@
 								</h2>
 							</div>
 
-							<div role="tabpanel" id="menu2" class="tab-pane fade" style="height:500px!important;">
-								<div class="gauche" >
-								<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
-								<br/>
 								
-								<h4>Dimension #2 / 7</h4>
-								<h1>Customer centricity</h1>
-								
-								<h3 style="font-size: 30px !important;margin-top: 20px;">"En tant que marketeurs, nous devrions faire évoluer notre mantra de "toujours attirer de nouveaux clients" vers "toujours aider nos clients".</h3>
-								<p>Jonathan Linster, LinkedIn</p>
-								<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
-										<li class="picture_prev" prev="2"><a href="#">Previous</a></li>
-										<li class="picture_next" next="4"><a href="#">Next</a></li>
-									</ul>
-								</div>
-
-									<img class="no-mobile" src="images/customer.jpg" style="position:absolute;top:0px;right:-30px;">
-							</div>	
-							<div role="tabpanel" id="menu3" class="tab-pane fade">
+							<div role="tabpanel" id="menu1" class="tab-pane fade">
 								
 									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
 								<h2>Customer centricity</h2>
@@ -1069,25 +1026,8 @@
 								</ul>
 							</div>
 
-							<div role="tabpanel" id="menu4" class="tab-pane fade" style="height:500px!important;">
-									<div class="gauche">
-									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
-									<br/>
-									<br/>
-									<h4>Dimension #3 / 7</h4>
-									<h1>Organisation</h1>
-									
-									<h3 style="font-size: 30px !important;margin-top: 20px;">"La raison d'être d'une organisation est de permettre à des gens ordinaires de faire des choses extraordinaires."</h3>
-									<p>Peter Drucker</p>
-									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
-											<li class="picture_prev" prev="4"><a href="#">Previous</a></li>
-											<li class="picture_next" next="6"><a href="#">Next</a></li>
-										</ul>
-									</div>
-	
-										<img class="no-mobile" src="images/orga.jpg" style="position:absolute;top:0px;right:-30px;">
-									</div>
-							<div role="tabpanel" id="menu5" class="tab-pane fade">
+							
+							<div role="tabpanel" id="menu2" class="tab-pane fade">
 									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
 								<h2>Organisation
 								
@@ -1132,25 +1072,8 @@
 									<li class="disabled"><a href="#">Next</a></li>
 								</ul>
 							</h2></div>
-							<div role="tabpanel" id="menu6" class="tab-pane fade" style="height:500px!important;">
-									<div class="gauche">
-									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
-									<br/>
-									<br/><br/>
-									<h4>Dimension #4 / 7</h4>
-									<h1>Execution</h1>
-									
-									<h3 style="font-size: 30px !important;margin-top: 20px;">“La communication, comme la guerre, est un art simple, et tout d’exécution.”</h3>
-									<p>Luc Ferry</p>
-									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
-											<li class="picture_prev" prev="6"><a href="#">Previous</a></li>
-											<li class="picture_next" next="8"><a href="#">Next</a></li>
-										</ul>
-									</div>
-	
-										<img class="no-mobile" src="images/flower.jpg" style="position:absolute;top:0px;right:-30px;">
-									</div>
-							<div role="tabpanel" id="menu7" class="tab-pane fade">
+							
+							<div role="tabpanel" id="menu3" class="tab-pane fade">
 									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
 								<h2>Execution
                                                 
@@ -1189,25 +1112,8 @@
 									<li class="disabled"><a href="#">Next</a></li>
 								</ul>
 							</h2></div>
-							<div role="tabpanel" id="menu8" class="tab-pane fade" style="height:500px!important;">
-									<div class="gauche">
-										
-									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
-									<br/>
-									<h4>Dimension #5 / 7</h4>
-									<h1>Technos</h1>
-									
-									<h3 style="font-size: 30px !important;margin-top: 20px;">“Tôt ou tard la technologie permet à tout le monde d'accomplir ce que des gens exceptionels accomplissaient.”</h3>
-									<p>Roland Topor </p>
-									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
-											<li class="picture_prev" prev="8"><a href="#">Previous</a></li>
-											<li class="picture_next" next="10"><a href="#">Next</a></li>
-										</ul>
-									</div>
-	
-										<img class="no-mobile" src="images/techno.jpg" style="position:absolute;top:0px;right:-30px;">
-							</div>
-							<div role="tabpanel" id="menu9" class="tab-pane fade">
+							
+							<div role="tabpanel" id="menu4" class="tab-pane fade">
 									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
 								<h2>Technologie Marketing
 
@@ -1246,24 +1152,8 @@
 									<li class="disabled"><a href="#">Next</a></li>
 								</ul>
 							</h2></div>
-							<div role="tabpanel" id="menu10" class="tab-pane fade" style="height:500px!important;">
-									<div class="gauche">
-									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
-									<br/>
-									<br/><br/><h4>Dimension #6 / 7</h4>
-									<h1>Ressources & Budget</h1>
-									
-									<h3 style="font-size: 30px !important;margin-top: 20px;">"8 marketers sur 10 se plaignent d'avoir un budget insuffisant."</h3>
-									<p></p>
-									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
-											<li class="picture_prev" prev="10"><a href="#">Previous</a></li>
-											<li class="picture_next" next="12"><a href="#">Next</a></li>
-										</ul>
-									</div>
-	
-										<img class="no-mobile" src="images/team.jpg" style="position:absolute;top:0px;right:-30px;">
-							</div>
-							<div role="tabpanel" id="menu11" class="tab-pane fade">
+							
+							<div role="tabpanel" id="menu5" class="tab-pane fade">
 									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
 								<h2>Ressources &amp; Budget 
 
@@ -1315,24 +1205,8 @@
 									<li class="disabled"><a href="#">Next</a></li>
 								</ul>
 							</h2></div>
-							<div role="tabpanel" id="menu12" class="tab-pane fade" style="height:500px!important;">
-									<div class="gauche">
-									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
-									<br/>
-									<br/><br/><h4>Dimension #7 / 7</h4>
-									<h1>Mesure <br/>de la performance</h1>
-									
-									<h3 style="font-size: 30px !important;margin-top: 20px;">"L'amélioration continue vaut mieux qu'envisager la perfection."</h3>
-									<p>Marc Twain</p>
-									<ul class="pager" style="    position: absolute;bottom: 0px;left: 105px;">
-											<li class="picture_prev" prev="12"><a href="#">Previous</a></li>
-											<li class="picture_next" next="14"><a href="#">Next</a></li>
-										</ul>
-									</div>
-	
-										<img class="no-mobile" src="images/perf.jpg" style="position:absolute;top:0px;right:-30px;">
-							</div>
-							<div role="tabpanel" id="menu13" class="tab-pane fade">
+							
+							<div role="tabpanel" id="menu6" class="tab-pane fade">
 									<h2 style="font-size: 20px;font-weight: 700 !important;color: #888;">Demand generation</h2>
 								<h2>Reporting &amp; Analytics
 
@@ -1371,9 +1245,9 @@
 									<li class="disabled"><a href="#">Next</a></li>
 								</ul>
 							</h2></div>
-							<div role="tabpanel" id="menu14" class="tab-pane fade">
+							<div role="tabpanel" id="menu7" class="tab-pane fade">
 								<img id="theory-logo" src="https://s3-eu-west-1.amazonaws.com/pixbucket/logo/logo+theroy+global+noir+150.png" style="width:120px;padding:30px 0 20px 0;">
-								<a href="#" class="no-mobile" onclick="window.print();event.preventDefault();"><i class="material-icons" style="position:absolute;top:15px;right:0px;font-size:48px;color:#AAA;">print</i></a>
+								<a href="#" class="no-mobile" onclick="window.print();event.preventDefault();"><i class="material-icons" style="position:absolute;top:15px;right:0px;font-size:30px;margin:10px;color:#AAA;">print</i></a>
 								<center>
 										<h2 style="color:#777;font-family: 'Ubuntu'!important;font-size:26px;">Demand Generation</h2>
 										<h1 style="font-size:32px;">Vos résultats <span id="score" style="font-family:'Ubuntu';font-size:52px;color:#000"></span>
@@ -1605,7 +1479,7 @@
 																<td width="100%%" style="padding:10px;" colspan="2">
                                                                                                 
                                                                                                 
-																		<div style="float:left;width:50%px; margin:20px;">
+																		<div style="float:left;width:50%px; margin:20px;display:none;">
 																			<img src="https://s3-eu-west-1.amazonaws.com/pixbucket/Index/tamara-grunebaum.png" style="width:60px;margin-top:0px;margin-bottom:15px; color:#000;" >
 																			<div style="font-size:16px;;color:#555;display:inline-block;font-weight:400;">
 																				Tamara Grunebaum - <a href="https://www.linkedin.com/in/tamaragrunebaum/" >Partner</a>
@@ -1614,7 +1488,7 @@
 																			
 																			
 																		</div>
-																		<div style="float:left;width:50%x;margin:20px;">
+																		<div style="text-align:center;width:50%x;margin:20px;">
 																			<img src="https://s3-eu-west-1.amazonaws.com/pixbucket/Index/Clement_Hurstel.png" style="width:60px;margin-top:0px;margin-bottom:15px; color:#000;" >
 																				<div style="font-size:16px;;color:#555;display:inline-block;font-weight:400;">
 																					Clément Hurstel - <a href="https://www.linkedin.com/in/churstel/">VP Demand Strategy</a>
